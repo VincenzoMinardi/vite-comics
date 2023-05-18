@@ -1,3 +1,5 @@
+
+//********** HEADER **********//
 @mixin nav-bar{
     display: flex;
     justify-content: space-around;
@@ -16,4 +18,52 @@
 @mixin size-img{
     margin-top: 1rem;
     height: 80px;
+}
+
+//********** MAIN **********//
+
+@mixin color-main{
+background-color: black;
+    height: 150px;
+   
+}
+
+@mixin mini-main{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 130, 249);
+    height: 200px;
+    color: white;
+}
+
+@mixin color-text-main{
+   text-align: center;
+    color: white;
+}
+
+@mixin img-main{
+    height: 50px;
+}
+
+@mixin container{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+//********** FOOTER **********//
+
+@mixin list-footer{
+    margin-top: 1rem;
+    color: white;
+    list-style: none;
+    
+}
+
+@mixin title{
+    font-size: 1.5rem;
+    
 }
