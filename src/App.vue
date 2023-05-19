@@ -19,9 +19,14 @@ export default{
 </template>
 
 <style lang="scss">
+ @use './assets/styles/partials/variables.scss' as *;
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ .max-container{
+   @include max-container
 }
 </style>
