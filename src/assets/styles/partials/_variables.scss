@@ -29,8 +29,12 @@
 //********** MAIN **********//
 
 @mixin color-main{
-background-color: black;
-    height: 150px;
+display: flex;
+flex-wrap: wrap;
+padding: 2rem 0;
+max-width: 1200px;
+margin: auto;
+
    
 }
 

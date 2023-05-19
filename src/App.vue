@@ -2,14 +2,13 @@
 import PHeader from './components/PHeader.vue'
 import PMain from './components/PMain.vue'
 import PFooter from './components/PFooter.vue'
-import PCard from './components/PCard.vue'
+
 
 export default{
   components:{
     PHeader,
     PMain,
     PFooter,
-    PCard, 
   }
 }
 </script>
