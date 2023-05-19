@@ -3,7 +3,7 @@
 
 <template>
     <div class="main">
-        <h2 class="text"> Content goes here</h2>
+        
     </div>
     <div class="color-cont">
         <div class="max-container">
@@ -29,8 +29,6 @@
                     <h5>DC POWER VISA</h5>
                 </div>
             </div>
-            
-            
         </div>   
     </div>
             
