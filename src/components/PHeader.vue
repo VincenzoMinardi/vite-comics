@@ -17,28 +17,29 @@
                 <li>FANS</li>
                 <li>NEWS</li>
                 <li>SHOP</li>
-        </ul>
-        </div>  
+            </ul>
+        </div>
     </div>
-    
- 
+
+
 </template>
 
-<style lang="scss" scoped >
+<style lang="scss" scoped>
 @use './../assets/styles/partials/variables' as *;
-.max-container{
+
+.max-container {
     @include max-container;
 }
 
-.bar{
+.bar {
     @include nav-bar;
 }
 
-.text{
+.text {
     @include color-text;
 }
 
-.size{
+.size {
     @include size-img;
 }
 </style>
